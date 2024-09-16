@@ -12,12 +12,11 @@ public class O3 {
 
 		for (int i = 1; i <= n; i++) {
 			fakultet *= i;
-			}
+		}
 		if (n > 0) {
 			System.out.println("Verdien av " + n + "! er: " + fakultet);
 
-		} 
-		else {
+		} else {
 			System.out.println("Feilmelding, skriv en verdi over 0");
 		}
 	}
